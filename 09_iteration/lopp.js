@@ -158,3 +158,8 @@
 
 // console.log(book);
 
+const array = [1,2,3,4,5,6,7,8,9,41];
+
+const newarray = array.map((nums) => nums *10).map((nums) => nums +1).filter((nums) => nums > 11);
+
+console.log(newarray);
